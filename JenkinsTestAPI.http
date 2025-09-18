@@ -1,0 +1,6 @@
+@JenkinsTestAPI_HostAddress = http://localhost:5269
+
+GET {{JenkinsTestAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
